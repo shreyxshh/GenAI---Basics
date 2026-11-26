@@ -1,0 +1,8 @@
+groq
+python-dotenv
+rich 
+langchain_groq
+langchain
+langchain-groq
+mistralai
+langchain-mistralai
