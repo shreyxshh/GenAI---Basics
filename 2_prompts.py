@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 model = init_chat_model("groq:openai/gpt-oss-20b")
 state = input('Enter a state : ')
 
-# using normal "python"
+#0. using normal "python"
 # response = model.invoke(f'what is the capital of {state}')
 # print(response.content)
 
