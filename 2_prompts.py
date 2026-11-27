@@ -10,6 +10,9 @@ state = input('Enter a state : ')
 response = model.invoke(f'what is the capital of {state}')
 print(response.content)
 
+#to use the PromptTemplate follow the steps
+#template define -> Placeholder value inputs -> template invoke for prompt -> model invoke for response 
+
 #1. using langchain's "PrompTemplate.from_template" 
 from langchain_core.prompts import PromptTemplate
 template = PromptTemplate.from_template("what is the capital of {state}")
